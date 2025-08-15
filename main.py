@@ -7,7 +7,7 @@ from random import randint
 from datetime import datetime
 
 TOKEN = os.getenv("BOT_TOKEN")
-bot = telebot.TeleBot(TOKEN, parse_mode=None)
+bot = telebot.TeleBot(TOKEN)
 
 app = Flask(__name__)
 
