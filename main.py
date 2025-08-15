@@ -116,7 +116,7 @@ def answer(message):
     try:
         text = message.text
 
-        if textф == "Привет":
+        if text == "Привет":
             bot.send_message(message.chat.id, "Привет!")
         elif text == "Как дела?":
             bot.send_message(message.chat.id, "Прекрасно!")
